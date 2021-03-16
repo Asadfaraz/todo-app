@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("./boat-5889919_1280.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main {
+  /* border: 1px solid red; */
+  padding: 10px;
+
+  text-align: center;
+  color: rgb(204, 255, 109);
+
+  font-family: Arial;
+  animation: mymove 10s infinite;
+}
+@keyframes mymove {
+  from {
+    background-color: rgb(18, 180, 230);
+  }
+  to {
+    background-color: rgb(15, 112, 141);
+  }
+}
+
+.todo-sec {
+  width: 60%;
+  height: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.el {
+  /* border: 1px solid red; */
+  width: 70%;
+
+  margin-top: 50px;
+}
+
+.todo-sec input {
+  width: 300px;
+  /* height: 25px; */
+  padding: 5px;
+  outline: none;
+  border: 1px solid blue;
+}
+.todo-sec input:focus {
+  background-color: rgb(77, 235, 77);
+  color: black;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(9, 162, 52);
+  /* border-radius: 1px solid yellow; */
+  font-size: 20px;
+}
+
+.todo-sec button {
+  padding: 5px;
+  width: 80px;
+
+  background-color: greenyellow;
+  border: 1px solid green;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.todo-sec button:hover {
+  background-color: rgb(99, 181, 206);
+  color: white;
+}
+
+#clearbtn {
+  font-size: 14px;
+}
+
+/*  */
+
+.items {
+  /* border: 1px solid red; */
+  /* display: none; */
+
+  width: 50%;
+
+  margin-top: 15px;
+  margin-left: 240px;
+
+  /* padding: 10px; */
+}
+.items ul {
+  list-style: none;
+  /* margin-left: -90px; */
+
+  text-align: center;
+}
+.items ul li {
+  margin: 10px 0;
+  width: 45%;
+
+  background-color: rgb(11, 125, 201);
+  border-radius: 40px;
+  color: white;
+  padding: 10px 0;
+
+  font-size: 24px;
+  font-family: "Gill Sans";
+}
