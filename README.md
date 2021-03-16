@@ -1,6 +1,6 @@
 #This is a Todo App
 
-![Todo App Screenshot](ss.png)
+![Todo App Screenshot - Desktop preview](ss.PNG)
 
 This is made using Simple HTML, CSS and JavaScript
 
